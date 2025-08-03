@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites', # allauth
     'allauth', # allauth
-    'allauth.account', # allauth
+    'allauth.account', # allauth\
+    'core', # core
     'zapp', # zapp
 ]
 
