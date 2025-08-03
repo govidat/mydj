@@ -14,6 +14,9 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 COPY requirements.txt .
 RUN uv pip install -r requirements.txt --system
 
+# Install GNU Gettext tools for makemessages and compilemessages
+RUN apt-get install -y gettext
+
 #RUN pip install -r requirements.txt
 
 COPY . .

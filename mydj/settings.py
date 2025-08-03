@@ -145,3 +145,8 @@ SITE_ID = 1  # allauth
 ACCOUNT_EMAIL_VERIFICATION = "none"  # allauth
 
 LOGIN_REDIRECT_URL = "/"  # allauth
+
+LANGUAGES = [           # i18n
+    ('en', 'English'),
+    ('fr', 'French'),
+]
