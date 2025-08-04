@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-03 18:17+0530\n"
+"POT-Creation-Date: 2025-08-04 09:44+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,13 @@ msgstr ""
 #: core/templates/base_core.html:28
 msgid "Switch"
 msgstr ""
+
+#: core/templates/base_core.html:36
+#, python-format
+msgid "You have %(count)s message."
+msgid_plural "You have %(count)s messages."
+msgstr[0] ""
+msgstr[1] ""
 
 #: core/templates/core/index.html:4
 msgid "Hello_World"
